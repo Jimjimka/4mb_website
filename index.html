@@ -129,7 +129,8 @@ img{display:block;max-width:100%}
 /* ─── HERO ───────────────────────────────────────── */
 .hero{
   position:relative;width:100%;
-  height:100vh;min-height:720px;max-height:900px;
+   min-height:100vh;
+  height:auto;min-height:780px;max-height:900px;
   display:flex;align-items:center;justify-content:center;
   overflow:hidden;overflow:clip;
 }
@@ -933,7 +934,7 @@ img{display:block;max-width:100%}
   <div class="cmd-head reveal">
     <div class="cmd-head-titles">
       <h2 class="sec-heading">Наші командири</h2>
-      <p class="cmd-m-subtitle" id="cmd-subtitle">Командир батальйону</p>
+      <p class="cmd-m-subtitle" id="cmd-subtitle">Командир батальйонуууууу</p>
     </div>
     <div class="car-controls cmd-car-controls">
       <button class="car-btn prev off" id="cmd-prev" onclick="cmdMove(-1)" aria-label="Назад">
@@ -962,21 +963,21 @@ img{display:block;max-width:100%}
       </div>
     </article>
 
-    <article class="cmd-card" data-rank="Заступник командиру батальйону">
+    <article class="cmd-card" data-rank="Заступник командира батальйону, майор">
       <div class="cmd-photo">
         <div class="cmd-photo-overlay"></div>
-        <img class="bg" src="assets/images/commanders/cmd-2.webp" alt="Заступник командиру батальйону" onerror="this.style.display='none'"/>
+        <img class="bg" src="assets/images/commanders/cmd-2.webp" alt="Заступник командира батальйону" onerror="this.style.display='none'"/>
         <div class="cmd-badge"><img src="assets/images/ui/badge-commander.png" alt=""/></div>
       </div>
       <div class="cmd-info">
         <h3 class="cmd-name">Роман «МАВР» </h3>
-        <p class="cmd-rank">Заступник командиру батальйону, майор</p>
+        <p class="cmd-rank">Заступник командира батальйону, майор</p>
         <blockquote class="cmd-quote"><img class="cmd-quote-mark" src="assets/images/quote-marks.svg" alt="" aria-hidden="true"><p>У нас немає «паркетних» офіцерів. Все управління батальйону має бойовий досвід і пройшло через окопи.</p><img class="cmd-quote-mark-close" src="assets/images/quote-marks.svg" alt="" aria-hidden="true"></blockquote>
         <button class="cmd-bio-btn" onclick="openCmdModal('мавр')">Читати біо</button>
       </div>
     </article>
 
-    <article class="cmd-card" data-rank="Штаб-сержант">
+    <article class="cmd-card" data-rank="Головний сержант батальйону, штаб-сержант">
       <div class="cmd-photo">
         <div class="cmd-photo-overlay"></div>
         <img class="bg" src="assets/images/commanders/cmd-3.webp" alt="Штаб-сержант" onerror="this.style.display='none'"/>
@@ -1635,7 +1636,7 @@ const CMD_BIOS={
 У 2023 році був переведений до 4-го механізованого батальйону на Сіверський напрямок. Вступив на посаду начальника штабу.
 
 Від січня 2025 року обіймає посаду командира 4-го механізованого батальйону.`},
-  'мавр':{name:'Роман «МАВР» Назаренко',rank:'Заступник командиру батальйону, майор',photo:'assets/images/commanders/cmd-2.webp',twoCol:true,bio:`У 1997 році закінчив Одеський інститут сухопутних військ. Того ж року був призначений командиром взводу спеціального призначення 2-го батальйону спеціального призначення 18-го полку спеціального призначення 6-ї дивізії Національної гвардії України.
+  'мавр':{name:'Роман «МАВР» Назаренко',rank:'Заступник командира батальйону, майор',photo:'assets/images/commanders/cmd-2.webp',twoCol:true,bio:`У 1997 році закінчив Одеський інститут сухопутних військ. Того ж року був призначений командиром взводу спеціального призначення 2-го батальйону спеціального призначення 18-го полку спеціального призначення 6-ї дивізії Національної гвардії України.
 
 1999 рік — підвищений до командира роти спеціального призначення 1-го батальйону спеціального призначення 18-го полку спеціального призначення 6-ї дивізії Національної гвардії України.
 
