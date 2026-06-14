@@ -337,7 +337,7 @@ img{display:block;max-width:100%}
 /* ─── MODAL FORM ─────────────────────────────────── */
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:500;display:none;align-items:center;justify-content:center;backdrop-filter:blur(6px)}
 .modal-overlay.open{display:flex}
-.modal-box{background:#fff;border-radius:16px;padding:40px;width:600px;max-width:95vw;max-height:90vh;overflow-y:auto;position:relative;animation:fadeInUp .3s ease;-webkit-overflow-scrolling:touch}
+.modal-box{background:#fff;border-radius:16px;padding:40px;width:600px;max-width:95vw;max-height:90vh;overflow-y:auto;overflow-x:auto;-webkit-overflow-scrolling:touch;position:relative;animation:fadeInUp .3s ease}
 @media(max-width:767px){
   .modal-box{width:90vw;max-width:90vw;border-radius:16px;padding:24px 20px 32px;max-height:none;overflow-y:visible}
   #cmd-modal .modal-box{max-height:90dvh}
