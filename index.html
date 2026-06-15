@@ -9,8 +9,16 @@
   <meta property="og:title" content="4МБ — Окрема президентська бригада">
   <meta property="og:description" content="Офіційна сторінка 4-го механізованого батальйону Окремої Президентської Бригади ім. Гетьмана Богдана Хмельницького">
   <meta property="og:image" content="assets/images/hero/hero-bg.jpg">
+<link rel="preload" href="assets/images/hero/hero-bg.webp" as="image" fetchpriority="high"/>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin/>
+<link rel="preload" href="assets/fonts/UAFSans-Regular.otf" as="font" type="font/otf" crossorigin/>
+<link rel="preload" href="assets/fonts/UAFSans-Medium.otf" as="font" type="font/otf" crossorigin/>
+<link rel="preload" href="assets/fonts/UAFSans-Bold.otf" as="font" type="font/otf" crossorigin/>
+<style>
+/* meyer-reset v2.0 — inlined to avoid render-blocking request */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+</style>
 <style>
 /* ─── FONTS ──────────────────────────────────────── */
 @font-face{font-family:"UAF Sans";src:url("assets/fonts/UAFSans-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}
@@ -752,10 +760,11 @@ img{display:block;max-width:100%}
 </nav>
 
 <!-- ═══ HERO ═════════════════════════════════════════ -->
+<main>
 <section id="hero">
   <div class="hero">
     <div class="hero-bg">
-      <img src="assets/images/hero/hero-bg.webp" alt="" onerror="this.parentNode.style.background='radial-gradient(ellipse at 50% 30%,rgba(100,80,30,.35) 0%,#0b0c0f 70%)'"/>
+      <img src="assets/images/hero/hero-bg.webp" alt="" width="1920" height="1080" fetchpriority="high" onerror="this.parentNode.style.background='radial-gradient(ellipse at 50% 30%,rgba(100,80,30,.35) 0%,#0b0c0f 70%)'"/>
       <div class="hero-bg-grad"></div>
     </div>
     <div class="hero-radial"></div>
@@ -790,22 +799,22 @@ img{display:block;max-width:100%}
     <div class="results-grid" id="results-grid">
       <div class="stat">
         <span class="stat-label">ПІХОТА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="3370">3280</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">ВАЖКА БРОНЕТЕХНІКА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="5">12</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">АРТИЛЕРІЯ</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="14">14</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">АВТОТЕХНІКА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num" style="overflow:hidden;height:1.2em;align-items:center"><span class="stat-inf">∞</span></div>
       </div>
     </div>
@@ -835,18 +844,18 @@ img{display:block;max-width:100%}
     <div class="c-track" id="cs-track">
       <!-- Slide 1 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/system-1.webp" alt="Система бою 1" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/system-2.webp" alt="Система бою 2" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/system-1.webp" alt="Система бою 1" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/system-2.webp" alt="Система бою 2" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 2 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/system-3.webp" alt="Система бою 3" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/system-4.webp" alt="Система бою 4" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/system-3.webp" alt="Система бою 3" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/system-4.webp" alt="Система бою 4" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 3 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/system-5.webp" alt="Система бою 5" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/system-6.webp" alt="Система бою 6" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/system-5.webp" alt="Система бою 5" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/system-6.webp" alt="Система бою 6" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
     </div>
   </div>
@@ -899,28 +908,28 @@ img{display:block;max-width:100%}
     <div class="c-track" id="cp-track">
       <!-- Slide 1 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/path-1.webp" alt="Бойовий шлях 1" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/path-2.webp" alt="Бойовий шлях 2" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/path-1.webp" alt="Бойовий шлях 1" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/path-2.webp" alt="Бойовий шлях 2" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 2 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/path-3.webp" alt="Бойовий шлях 3" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/path-4.webp" alt="Бойовий шлях 4" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/path-3.webp" alt="Бойовий шлях 3" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/path-4.webp" alt="Бойовий шлях 4" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 3 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/path-5.webp" alt="Бойовий шлях 5" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/path-6.webp" alt="Бойовий шлях 6" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/path-5.webp" alt="Бойовий шлях 5" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/path-6.webp" alt="Бойовий шлях 6" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 4 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/path-7.webp" alt="Бойовий шлях 7" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/path-8.webp" alt="Бойовий шлях 8" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/path-7.webp" alt="Бойовий шлях 7" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/path-8.webp" alt="Бойовий шлях 8" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
       <!-- Slide 5 -->
       <div class="c-slide">
-        <img src="assets/images/gallery/path-9.webp" alt="Бойовий шлях 9" onerror="this.style.background='rgba(255,255,255,.05)'"/>
-        <img src="assets/images/gallery/path-11.webp" alt="Бойовий шлях 11" onerror="this.style.background='rgba(255,255,255,.04)'"/>
+        <img src="assets/images/gallery/path-9.webp" alt="Бойовий шлях 9" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.05)'"/>
+        <img src="assets/images/gallery/path-11.webp" alt="Бойовий шлях 11" width="600" height="400" onerror="this.style.background='rgba(255,255,255,.04)'"/>
       </div>
     </div>
   </div>
@@ -951,7 +960,7 @@ img{display:block;max-width:100%}
     <article class="cmd-card" data-rank="Командир батальйону, підполковник">
       <div class="cmd-photo">
         <div class="cmd-photo-overlay"></div>
-        <img class="bg" src="assets/images/commanders/cmd-1.webp" alt="Командир батальйону" onerror="this.style.display='none'"/>
+        <img class="bg" src="assets/images/commanders/cmd-1.webp" alt="Командир батальйону" width="480" height="560" onerror="this.style.display='none'"/>
         <div class="cmd-badge"><img src="assets/images/ui/badge-commander.png" alt=""/></div>
       </div>
       <div class="cmd-info">
@@ -966,7 +975,7 @@ img{display:block;max-width:100%}
     <article class="cmd-card" data-rank="Заступник командира батальйону, майор">
       <div class="cmd-photo">
         <div class="cmd-photo-overlay"></div>
-        <img class="bg" src="assets/images/commanders/cmd-2.webp" alt="Заступник командира батальйону" onerror="this.style.display='none'"/>
+        <img class="bg" src="assets/images/commanders/cmd-2.webp" alt="Заступник командира батальйону" width="480" height="560" onerror="this.style.display='none'"/>
         <div class="cmd-badge"><img src="assets/images/ui/badge-commander.png" alt=""/></div>
       </div>
       <div class="cmd-info">
@@ -981,7 +990,7 @@ img{display:block;max-width:100%}
     штаб-сержант">
       <div class="cmd-photo">
         <div class="cmd-photo-overlay"></div>
-        <img class="bg" src="assets/images/commanders/cmd-3.webp" alt="Штаб-сержант" onerror="this.style.display='none'"/>
+        <img class="bg" src="assets/images/commanders/cmd-3.webp" alt="Штаб-сержант" width="480" height="560" onerror="this.style.display='none'"/>
         <div class="cmd-badge"><img src="assets/images/ui/badge-commander.png" alt=""/></div>
       </div>
       <div class="cmd-info">
@@ -1066,7 +1075,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Оператор розвідувальних БПЛА')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Оператор розвідувальних БПЛА')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-1.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-1.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">БПЛА</span>
@@ -1076,7 +1085,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Водій')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Водій')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-2.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-2.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">Логістика</span>
@@ -1086,7 +1095,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Оператор НРК')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Оператор НРК')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-3.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-3.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">НРК</span>
@@ -1096,7 +1105,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Стрілець')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Стрілець')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-4.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-4.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">Піхота</span>
@@ -1106,7 +1115,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Оператор ударних БПЛА')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Оператор ударних БПЛА')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-5.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-5.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">БПЛА</span>
@@ -1116,7 +1125,7 @@ img{display:block;max-width:100%}
 
     <div class="job-card" role="button" tabindex="0" onclick="openModal('Мінометник')" onkeydown="if(event.key==='Enter'||event.key===' ')openModal('Мінометник')">
       <div class="job-bg">
-        <img src="assets/images/jobs/job-6.webp" alt="" onerror="this.style.display='none'"/>
+        <img src="assets/images/jobs/job-6.webp" alt="" width="400" height="300" onerror="this.style.display='none'"/>
         <div class="job-bg-grad"></div>
       </div>
       <span class="job-tag">Артилерія</span>
@@ -1278,6 +1287,7 @@ img{display:block;max-width:100%}
     </div>
   </div>
 </div>
+</main>
 
 <div class="modal-overlay" id="cmd-modal" onclick="closeCmdModalOutside(event)">
   <div class="modal-box cmd-modal-box">
