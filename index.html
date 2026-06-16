@@ -11,10 +11,10 @@
   <meta property="og:image" content="assets/images/hero/hero-bg.jpg">
 <link rel="preload" href="assets/images/hero/hero-bg.webp" as="image" fetchpriority="high"/>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin/>
 <link rel="preload" href="assets/fonts/UAFSans-Regular.otf" as="font" type="font/otf" crossorigin/>
 <link rel="preload" href="assets/fonts/UAFSans-Medium.otf" as="font" type="font/otf" crossorigin/>
 <link rel="preload" href="assets/fonts/UAFSans-Bold.otf" as="font" type="font/otf" crossorigin/>
+<link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin/>
 <style>
 /* meyer-reset v2.0 — inlined to avoid render-blocking request */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
@@ -24,7 +24,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 @font-face{font-family:"UAF Sans";src:url("assets/fonts/UAFSans-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"UAF Sans";src:url("assets/fonts/UAFSans-Medium.otf") format("opentype");font-weight:500;font-style:normal;font-display:swap}
 @font-face{font-family:"UAF Sans";src:url("assets/fonts/UAFSans-Bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:"Montserrat";src:url("assets/fonts/Montserrat-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Montserrat";src:url("assets/fonts/Montserrat-Bold.woff2") format("woff2"),url("assets/fonts/Montserrat-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
 
 /* ─── DESIGN TOKENS ─────────────────────────────── */
 :root {
@@ -700,7 +700,7 @@ img{display:block;max-width:100%}
 <!-- ═══ HEADER ══════════════════════════════════════ -->
 <header class="header" id="hdr">
   <div class="header-inner">
-    <a class="brand" onclick="goTo('hero')">
+    <a class="brand" href="#hero" onclick="goTo('hero')">
       <div class="brand-icon">
         <img src="assets/images/ui/emblem-hero.svg" alt="Емблема 4 МБ" onerror="this.parentNode.innerHTML='<span style=\'font:900 22px/34px Arial Black,sans-serif;color:#fff\'>4</span>'"/>
       </div>
@@ -799,22 +799,22 @@ img{display:block;max-width:100%}
     <div class="results-grid" id="results-grid">
       <div class="stat">
         <span class="stat-label">ПІХОТА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="3370">3280</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">ВАЖКА БРОНЕТЕХНІКА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="5">12</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">АРТИЛЕРІЯ</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num"><span class="stat-num-inner" data-target="14">14</span></div>
       </div>
       <div class="stat">
         <span class="stat-label">АВТОТЕХНІКА</span>
-        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.webp" alt="" class="results-icon" width="22" height="21"></span>
+        <span class="stat-destroyed">знищено<img src="assets/images/ui/results.png" alt="" class="results-icon" width="22" height="21"></span>
         <div class="stat-num" style="overflow:hidden;height:1.2em;align-items:center"><span class="stat-inf">∞</span></div>
       </div>
     </div>
